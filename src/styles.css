@@ -35,3 +35,8 @@ p {
     color: #FDFDFD;
 }
 
+mat-card{
+    min-width:30em;
+    background-color: #FFDBDB !important;
+    
+}

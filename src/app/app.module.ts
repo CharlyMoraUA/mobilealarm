@@ -9,6 +9,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatInputModule } from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatIconModule} from '@angular/material/icon';
+import {MatCardModule} from '@angular/material/card';
 
 
 import { IniciarSesionComponent } from './iniciar-sesion/iniciar-sesion.component';
@@ -16,6 +17,8 @@ import { PaginaPrincipalComponent } from './pagina-principal/pagina-principal.co
 import { CrearCuentaComponent } from './crear-cuenta/crear-cuenta.component';
 import { InputFieldComponent } from './input-field/input-field.component';
 import { BasicButtonComponent } from './basic-button/basic-button.component';
+import { ListadoAlarmasComponent } from './listado-alarmas/listado-alarmas.component';
+import { ListElementComponent } from './list-element/list-element.component';
 
 
 @NgModule({
@@ -25,7 +28,9 @@ import { BasicButtonComponent } from './basic-button/basic-button.component';
     PaginaPrincipalComponent,
     CrearCuentaComponent,
     InputFieldComponent,
-    BasicButtonComponent
+    BasicButtonComponent,
+    ListadoAlarmasComponent,
+    ListElementComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +40,8 @@ import { BasicButtonComponent } from './basic-button/basic-button.component';
     MatSlideToggleModule,
     MatFormFieldModule,
     MatInputModule,
-    MatIconModule
+    MatIconModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
