@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { 
+    height: 100%; 
+}
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    background-color: #312D5E;
+}
+
+h1{
+    color: #FDFDFD;
+}
+
+a:link, a:visited{
+    color: #FDFDFD;
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    margin: 82px auto 32px;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: #F01D1D !important;
+}
+
+p {
+    color: #FDFDFD;
+}
+
