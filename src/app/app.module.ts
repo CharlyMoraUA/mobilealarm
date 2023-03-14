@@ -10,6 +10,10 @@ import { MatInputModule } from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import {MatDividerModule} from '@angular/material/divider';
+
+
 
 
 import { IniciarSesionComponent } from './iniciar-sesion/iniciar-sesion.component';
@@ -19,6 +23,12 @@ import { InputFieldComponent } from './input-field/input-field.component';
 import { BasicButtonComponent } from './basic-button/basic-button.component';
 import { ListadoAlarmasComponent } from './listado-alarmas/listado-alarmas.component';
 import { ListElementComponent } from './list-element/list-element.component';
+import { EnlazarDispositivoComponent } from './enlazar-dispositivo/enlazar-dispositivo.component';
+import { SeleccionaPulsacionesComponent } from './selecciona-pulsaciones/selecciona-pulsaciones.component';
+import { SeleccionaTiempoComponent } from './selecciona-tiempo/selecciona-tiempo.component';
+import { SeleccionaHoraComponent } from './selecciona-hora/selecciona-hora.component';
+import { SeleccionaDiasComponent } from './selecciona-dias/selecciona-dias.component';
+
 
 
 @NgModule({
@@ -30,7 +40,12 @@ import { ListElementComponent } from './list-element/list-element.component';
     InputFieldComponent,
     BasicButtonComponent,
     ListadoAlarmasComponent,
-    ListElementComponent
+    ListElementComponent,
+    EnlazarDispositivoComponent,
+    SeleccionaPulsacionesComponent,
+    SeleccionaTiempoComponent,
+    SeleccionaHoraComponent,
+    SeleccionaDiasComponent
   ],
   imports: [
     BrowserModule,
@@ -41,7 +56,9 @@ import { ListElementComponent } from './list-element/list-element.component';
     MatFormFieldModule,
     MatInputModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonToggleModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,43 @@
+/* .redBox {
+  align-self: center;
+} */
+
+input {
+    text-align: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.maincontainer {
+    display: inline-flex;
+    height: fit-content;
+    align-self: center;
+}
+
+/* .cardmain{
+    display: flex;
+  } */
+
+.ampm {
+    display: flex;
+    flex-direction: column;
+}
+
+mat-button-toggle, mat-button-toggle-group  {
+    background-color: #FFDBDB !important;
+
+}
+
+.timeicon{
+    align-self: center;
+}
