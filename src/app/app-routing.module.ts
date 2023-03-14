@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ConfigDatosComponent } from './config-datos/config-datos.component';
 import { ConfirmarComponent } from './confirmar/confirmar.component';
 import { CrearCuentaComponent } from './crear-cuenta/crear-cuenta.component';
 import { EnlazarDispositivoComponent } from './enlazar-dispositivo/enlazar-dispositivo.component';
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: 'seleccionahora', component: SeleccionaHoraComponent },
   { path: 'seleccionadias', component: SeleccionaDiasComponent },
   { path: 'confirmar', component: ConfirmarComponent },
+  { path: 'configurardatos', component: ConfigDatosComponent },
   { path: 'crearcuenta', component: CrearCuentaComponent }
 ];
 

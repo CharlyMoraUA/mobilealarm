@@ -31,6 +31,7 @@ import { SeleccionaTiempoComponent } from './selecciona-tiempo/selecciona-tiempo
 import { SeleccionaHoraComponent } from './selecciona-hora/selecciona-hora.component';
 import { SeleccionaDiasComponent } from './selecciona-dias/selecciona-dias.component';
 import { ConfirmarComponent } from './confirmar/confirmar.component';
+import { ConfigDatosComponent } from './config-datos/config-datos.component';
 
 
 
@@ -49,7 +50,8 @@ import { ConfirmarComponent } from './confirmar/confirmar.component';
     SeleccionaTiempoComponent,
     SeleccionaHoraComponent,
     SeleccionaDiasComponent,
-    ConfirmarComponent
+    ConfirmarComponent,
+    ConfigDatosComponent
   ],
   imports: [
     BrowserModule,
