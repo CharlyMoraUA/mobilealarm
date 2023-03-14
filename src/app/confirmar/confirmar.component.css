@@ -1,0 +1,12 @@
+.daycheck {
+    display: inline-flex !important;
+    height: fit-content;
+}
+
+.maindays {
+    background-color: #FFDBDB;
+    border-radius: 18px;
+}
+.dia {
+    color: black;
+}

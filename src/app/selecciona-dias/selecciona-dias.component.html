@@ -1,0 +1,13 @@
+<div class="content" role="main">
+
+  <h1>
+    Seleccionar Dias
+  </h1>
+
+  <mat-selection-list #shoes class="maindays">
+    <mat-list-option *ngFor="let shoe of days">
+      {{shoe}}
+    </mat-list-option>
+  </mat-selection-list>
+  <app-basic-button buttonLink="/seleccionapulsaciones" buttontext="Siguiente"></app-basic-button>
+</div>

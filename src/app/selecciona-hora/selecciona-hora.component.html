@@ -1,0 +1,38 @@
+<div class="content" role="main">
+
+    <h1>
+        Seleccionar Hora
+    </h1>
+
+
+    <mat-card class="cardmain">
+        <div class="maincontainer">
+            <div>
+                <p class="boxhelper">Minutos</p>
+                <mat-form-field appearance="fill" class="formInputred redBox">
+                    <input matInput type="number" placeholder="00">
+                </mat-form-field>
+            </div>
+            <div>
+                <p class="connector">:</p>
+            </div>
+            <div>
+                <p class="boxhelper">Segundos</p>
+                <mat-form-field appearance="fill" class="formInputclear redBox">
+                    <input matInput type="number" placeholder="00">
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-button-toggle-group name="ampm" aria-label="Font Style" class="ampm">
+                    <mat-button-toggle value="AM">AM</mat-button-toggle>
+                    <mat-button-toggle value="PM">PM</mat-button-toggle>
+                </mat-button-toggle-group>
+            </div>
+        </div>
+        <mat-icon class="timeicon" matSuffix>access_time constant</mat-icon>
+
+    </mat-card>
+
+
+    <app-basic-button buttonLink="/seleccionadias" buttontext="Siguiente"></app-basic-button>
+</div>

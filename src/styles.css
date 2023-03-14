@@ -27,16 +27,63 @@ a:link, a:visited{
     align-items: center;
 }
 
-button {
+/* button {
     background-color: #F01D1D !important;
-}
+} */
 
 p {
     color: #FDFDFD;
 }
 
 mat-card{
-    min-width:30em;
+    width:100%;
     background-color: #FFDBDB !important;
     
+}
+
+app-list-element{
+    width:90%;
+
+}
+
+ul, li{
+    color: #FDFDFD;
+}
+
+
+
+
+.formInputred{
+    border-style: solid;
+  border-width: 2px;
+  border-color: #F01D1D !important;
+  border-radius: 7px;
+  color: #312D5E !important;
+  width: 90%;
+}
+.formInputclear{
+  color: #312D5E !important;
+  width: 90%;
+}
+
+.mat-mdc-form-field, .formInputred, .ng-tns-c37-0, .mat-mdc-form-field-type-mat-input, .mat-form-field-appearance-fill, .mat-primary, .ng-star-inserted{
+    background-color: #FFD8E4 !important;
+    border-radius: 7px;
+}
+.mat-mdc-form-field, .formInputclear, .redBox, .ng-tns-c37-1, .mat-mdc-form-field-type-mat-input, .mat-form-field-appearance-fill, .mat-primary, .ng-star-inserted{
+    background-color: #FFD8E4 !important;
+    border-radius: 7px;
+}
+
+.mat-mdc-form-field-subscript-wrapper{
+    display: none;
+}
+
+p.boxhelper{
+    color: black !important;
+}
+
+p.connector{
+    color: black !important;
+    font-size: 300%;
 }
