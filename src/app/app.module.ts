@@ -12,6 +12,8 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatDividerModule} from '@angular/material/divider';
+import {MatListModule} from '@angular/material/list';
+
 
 
 
@@ -28,6 +30,7 @@ import { SeleccionaPulsacionesComponent } from './selecciona-pulsaciones/selecci
 import { SeleccionaTiempoComponent } from './selecciona-tiempo/selecciona-tiempo.component';
 import { SeleccionaHoraComponent } from './selecciona-hora/selecciona-hora.component';
 import { SeleccionaDiasComponent } from './selecciona-dias/selecciona-dias.component';
+import { ConfirmarComponent } from './confirmar/confirmar.component';
 
 
 
@@ -45,7 +48,8 @@ import { SeleccionaDiasComponent } from './selecciona-dias/selecciona-dias.compo
     SeleccionaPulsacionesComponent,
     SeleccionaTiempoComponent,
     SeleccionaHoraComponent,
-    SeleccionaDiasComponent
+    SeleccionaDiasComponent,
+    ConfirmarComponent
   ],
   imports: [
     BrowserModule,
@@ -58,7 +62,8 @@ import { SeleccionaDiasComponent } from './selecciona-dias/selecciona-dias.compo
     MatIconModule,
     MatCardModule,
     MatButtonToggleModule,
-    MatDividerModule
+    MatDividerModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

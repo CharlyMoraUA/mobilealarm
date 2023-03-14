@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./selecciona-dias.component.css']
 })
 export class SeleccionaDiasComponent {
-
+ days: string[] =["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"]
 }
