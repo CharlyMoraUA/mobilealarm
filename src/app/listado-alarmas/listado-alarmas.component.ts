@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class ListadoAlarmasComponent {
 
+  configMenu = false;
+
+  switchConfig(){
+    this.configMenu = !this.configMenu
+  }
 }

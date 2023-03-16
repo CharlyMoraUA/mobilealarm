@@ -1,21 +1,33 @@
 <div class="content" role="main">
-    <app-basic-button buttonLink="/" buttontext="Configuracion"></app-basic-button>
 
 
 
-        <mat-card class="config">
-            <mat-card-content><a routerLink="/configurardatos">Configurar datos personales</a></mat-card-content>
-        </mat-card>
-        <mat-card class="config">
-            <mat-card-content><a routerLink="/enlazardisp">Enlazar dispositivo</a></mat-card-content>
-        </mat-card>
+  <div class="semitransparent" *ngIf="configMenu">
 
-    <h1>
-        Listado de alarmas
-    </h1>
+  </div>
 
-    <app-list-element content="Alarma 1"></app-list-element>
-    <app-list-element content="Alarma 2"></app-list-element>
+        <!--  -->
 
-    <app-basic-button buttonLink="/seleccionahora" buttontext="Crear Alarma"></app-basic-button>
+  <h1 style="margin-top: -35%;">
+    Listado de alarmas
+  </h1>
+  <button (click)="switchConfig()" mat-fab extended style="background-color: #F01D1D !important;margin-top: 2%;margin-left:49%">
+    <div>Configuracion</div>
+  </button>
+
+
+    <mat-card class="config" *ngIf="configMenu" style="margin-bottom: 10%; margin-top:10%">
+      <mat-card-content><a routerLink="/configurardatos">Configurar datos personales</a></mat-card-content>
+    </mat-card>
+    <mat-card class="config" *ngIf="configMenu" style="margin-bottom: -48%;">
+        <mat-card-content><a routerLink="/enlazardisp">Enlazar dispositivo</a></mat-card-content>
+    </mat-card>
+
+
+  <app-list-element content="Alarma 1" style="margin-top: 65%;"></app-list-element>
+  <app-list-element content="Alarma 2" style="margin-top: 10%;"></app-list-element>
+
+  <button [disabled]="configMenu" mat-fab extended style="margin-top: 40%;background-color: #F01D1D !important">
+    <a routerLink="/seleccionahora" style="color: white;">Crear Alarma</a>
+  </button>
 </div>

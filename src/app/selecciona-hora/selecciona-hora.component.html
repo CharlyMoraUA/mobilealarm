@@ -1,38 +1,38 @@
 <div class="content" role="main">
 
-    <h1>
+    <h1 style="margin-top:-15%">
         Seleccionar Hora
     </h1>
 
 
-    <mat-card class="cardmain">
+    <mat-card class="cardmain" style="width: 100%; margin-top:30%;border-radius:25px">
         <div class="maincontainer">
-            <div>
-                <p class="boxhelper">Minutos</p>
-                <mat-form-field appearance="fill" class="formInputred redBox">
-                    <input matInput type="number" placeholder="00">
+            <div style="margin-top:10%">
+                <mat-form-field appearance="fill" class="formInputred redBox" style="width: 50%; margin-left:50%">
+                    <input matInput type="number" placeholder="20" style="font-size: 250%;">
                 </mat-form-field>
+                <p class="boxhelper" style="width: 50%; margin-left:50%; margin-top:-0.5%">Horas</p>
             </div>
-            <div>
-                <p class="connector">:</p>
+            <div style="margin-left:2%">
+                <p class="connector" >:</p>
             </div>
-            <div>
-                <p class="boxhelper">Segundos</p>
-                <mat-form-field appearance="fill" class="formInputclear redBox">
-                    <input matInput type="number" placeholder="00">
+            <div style="margin-top:10.5%">
+                <mat-form-field appearance="fill" class="formInputclear redBox" style="width: 50%; margin-left:10%">
+                    <input matInput type="number" placeholder="00" style="font-size: 250%;">
                 </mat-form-field>
+                <p class="boxhelper" style="width: 50%; margin-left:10%; margin-top:-0.5%">Minutos</p>
             </div>
-            <div>
-                <mat-button-toggle-group name="ampm" aria-label="Font Style" class="ampm">
-                    <mat-button-toggle value="AM">AM</mat-button-toggle>
+            <div style="margin-left:-16%; width:10%; margin-top:10%">
+                <mat-button-toggle-group name="ampm" aria-label="Font Style" class="ampm" >
+                    <mat-button-toggle value="AM" >AM</mat-button-toggle>
                     <mat-button-toggle value="PM">PM</mat-button-toggle>
                 </mat-button-toggle-group>
             </div>
         </div>
-        <mat-icon class="timeicon" matSuffix>access_time constant</mat-icon>
+        <mat-icon class="timeicon" matSuffix style="margin-bottom:5%">access_time constant</mat-icon>
 
     </mat-card>
 
 
-    <app-basic-button buttonLink="/seleccionadias" buttontext="Siguiente"></app-basic-button>
+    <app-basic-button buttonLink="/seleccionadias" buttontext="Siguiente" style="margin-top:35%"></app-basic-button>
 </div>

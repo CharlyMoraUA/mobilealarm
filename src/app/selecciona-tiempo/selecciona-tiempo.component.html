@@ -1,35 +1,33 @@
 <div class="content" role="main">
 
-    <h1>
+    <h1 style="margin-top: -10%;">
         Seleccionar el tiempo
     </h1>
 
-    <mat-card>
+    <mat-card style="border-radius:25px; margin-top: 25%">
         <mat-card-header>
-            <mat-card-title>Tiempo de las pulsaciones para apagar alarma</mat-card-title>
+            <p style="color:black;margin-left: 3%">Tiempo de las pulsaciones para apagar alarma</p>
         </mat-card-header>
         <!-- <mat-card-content> -->
-        <mat-card class="cardmain">
-            <div class="maincontainer">
-                <div>
+            <div class="maincontainer" style="margin-bottom:15%">
+                <div style="width: 35%;margin-left:15%">
                     <p class="boxhelper">Minutos</p>
                     <mat-form-field appearance="fill" class="formInputred redBox">
-                        <input matInput type="number" placeholder="00">
+                        <input matInput type="number" placeholder="01" style="font-size: 250%;">
                     </mat-form-field>
                 </div>
                 <div>
                     <p class="connector">:</p>
                 </div>
-                <div>
+                <div style="width: 35%">
                     <p class="boxhelper">Segundos</p>
                     <mat-form-field appearance="fill" class="formInputclear redBox">
-                        <input matInput type="number" placeholder="00">
+                        <input matInput type="number" placeholder="00" style="font-size: 250%;">
                     </mat-form-field>
                 </div>
             </div>
-        </mat-card>
         <!-- </mat-card-content> -->
     </mat-card>
 
-    <app-basic-button buttonLink="/confirmar" buttontext="Siguiente"></app-basic-button>
+    <app-basic-button style="margin-top: 25%;" buttonLink="/confirmar" buttontext="Siguiente"></app-basic-button>
 </div>

@@ -1,13 +1,13 @@
 <div class="content" role="main">
 
-  <h1>
+  <h1 style="margin-top: -10%;">
     Seleccionar Dias
   </h1>
 
-  <mat-selection-list #shoes class="maindays">
-    <mat-list-option *ngFor="let shoe of days">
+  <mat-selection-list #shoes class="maindays" style="width: 90%;margin-top:5%">
+    <mat-list-option *ngFor="let shoe of days" style="margin-left: 1%;">
       {{shoe}}
     </mat-list-option>
   </mat-selection-list>
-  <app-basic-button buttonLink="/seleccionapulsaciones" buttontext="Siguiente"></app-basic-button>
+  <app-basic-button style="margin-top: 15%;" buttonLink="/seleccionapulsaciones" buttontext="Siguiente"></app-basic-button>
 </div>
